@@ -8,7 +8,7 @@ async fn main() -> Result<()> {
 
     let result = client.get("hello").await?;
 
-    println!("Results obtained from the server={:?}", result);
+    println!("Results obtained from the server = {:?}", result);
 
     Ok(())
 }
